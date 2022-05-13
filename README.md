@@ -1,2 +1,2 @@
 # E-D-code
-##Encriptador e descriptador simples.
+## Encriptador e descriptador simples.
