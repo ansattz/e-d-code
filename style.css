@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("assets/bg.jpeg");
+    background-image: url("img/bg.jpeg");
 }
 
 .main {
@@ -17,14 +17,14 @@ body {
 
 .input-texto {
     margin-top: 20px;
-    background-image: url("assets/overlay.png");
+    background-image: url("img/overlay.png");
 }
 
 .mensagem {
     position: relative;
     margin-top: 10px;
     margin-left: 20px;
-    background-image: url("assets/overlay.png");
+    background-image: url("img/overlay.png");
 }
 
 .botoes {
