@@ -1,0 +1,61 @@
+*    {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    background-image: url("assets/bg.jpeg");
+}
+
+.main {
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.input-texto {
+    margin-top: 20px;
+    background-image: url("assets/overlay.png");
+}
+
+.mensagem {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-image: url("assets/overlay.png");
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encripty, .decript {
+    background-color: rgb(195, 145, 78);
+    color: rgb(114, 44, 44);
+    border-radius: 50px;
+}
+
+.encripty:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.encripty:active{
+    background-color: rgba(214, 36, 36, 0.175);
+}
+
+.decript:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.decript:active{
+    background-color: rgba(214, 36, 36, 0.175);
+}
+
+.info {
+    font-size: 15px;
+    color: antiquewhite;
+}
