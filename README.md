@@ -1,2 +1,2 @@
 # E-D-code
-## Encriptador e descriptador simples.
+## Codifica/decodifica textos.
