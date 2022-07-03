@@ -8,7 +8,7 @@ function btnEncrypt() {
 }
 
 function encrypt(stringEncrypted) {
-    let matrizCodigo = [["a","fgtx"], ["e","lgkx"], ["i","zasx"], ["o","xczx"], ["u","tadx"], ["d", "tjcx"], ["g", "qwx"], ["c", "szsx"], ["p", "ytx"] ];
+    let matrizCodigo = [["a","#xQ&&!"], ["e","&!@XA"], ["i","A&*FG"], ["o","&SDQ!!"], ["u","!WQWE$"], ["d", "E$@!!$%"], ["g", "$%27x"], ["c", "27y@!"], ["p", "243"] ];
     stringEncrypted = stringEncrypted.toLowerCase();
 
     for(let i=0; i < matrizCodigo.length; i++) {
@@ -25,11 +25,11 @@ function btnDecrypt() {
 }
 
 function decrypt(stringDecrypted){
-    let matrizDecode = [["fgtx","a"], ["lgkx","e"], ["zasx","i"], ["xczx","o"], ["tadx","u"], ["tjcx", "d"], ["qwx", "g"], ["szsx", "c"], ["ytx", "p"]];
+    let matrizDecode = [["a","#xQ&&!"], ["e","&!@XA"], ["i","A&*FG"], ["o","&SDQ!!"], ["u","!WQWE$"], ["d", "E$@!!$%"], ["g", "$%27x"], ["c", "27y@!"], ["p", "243"] ];
 
     for(let i=0; i < matrizDecode.length; i++) {
-        if(stringDecrypted.includes(matrizDecode[i][0])) {
-            stringDecrypted = stringDecrypted.replaceAll(matrizDecode[i][0], matrizDecode[i][1])
+        if(stringDecrypted.includes(matrizDecode[i][1])) {
+            stringDecrypted = stringDecrypted.replaceAll(matrizDecode[i][1], matrizDecode[i][0])
         }
     }
     return stringDecrypted;

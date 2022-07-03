@@ -11,13 +11,13 @@
 </head>
 <body>
     <header>
-        <img src="img/favicon.ico" alt="Ansattz logo">
+        <img src="img/favicon.ico" class="logo" alt="phi logo">
     </header>
-    <main class="main">
-        <section>
+    <main>
+        <div class="entrada">
             <textarea class="input-texto" cols="30" rows="5" placeholder="Digite seu texto:"></textarea>
             <div>
-                <h6 class="info">Use apenas letras e números. Decodifique totalmente até 3x.</h6>
+                <h6 class="info">Dica: use apenas letras :).</h6>
             </div>
             <div class="botoes">
                 <button class="encrypt" onclick="btnEncrypt()">
@@ -27,10 +27,10 @@
                     Decodificar
                 </button>
             </div>
-        </section>
-        <section>
+        </div>
+        <div class="saida">
             <textarea class="mensagem" cols="30" rows="7"></textarea>
-        </section>
+        </div>
     </main>
     <script src="script.js"></script>
 </body>

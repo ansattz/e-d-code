@@ -1,40 +1,40 @@
 *    {
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 25px;
     line-height: 150%;
 }
 
 body {
-    background-image: url("img/bg.jpeg");
-    background-repeat: repeat;
-    background-position: center;
+    background: url("img/bg.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+}
+
+.entrada {
+    position: absolute;
+    margin-left: 2em;
 
 }
 
-.main {
-    display: flex;
-    margin-left: 50px;
-    margin-bottom: 20px;
+.logo{
+    position: relative;
 }
 
 .input-texto {
-    margin-top: 20px;
     background-image: url("img/overlay.png");
 }
 
 .mensagem {
-    position: relative;
-    margin-top: 10px;
-    margin-left: 20px;
     background-image: url("img/overlay.png");
 }
 
-.botoes {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
+.saida{
+    position: relative;
+    left: 25em;
+    
 }
 
 .encrypt, .decrypt {
@@ -62,4 +62,18 @@ body {
 .info {
     font-size: 15px;
     color: antiquewhite;
+}
+
+@media screen and (max-width: 480px) {
+    *{font-size: 19px;}
+   
+    .input-texto, .mensagem {width: 14.5em;}
+    .info{
+        font-size: 10px;
+        white-space: nowrap;}
+    .saida{
+        top: 16em;
+        left: 2em;
+        
+    }
 }
