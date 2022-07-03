@@ -1,6 +1,6 @@
 *    {
     font-family: "Inter", sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 25px;
     line-height: 150%;
 }
@@ -11,6 +11,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 .entrada {
@@ -20,6 +21,10 @@ body {
 }
 
 .logo{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    right: 10px;
+    width: 7em;
     position: relative;
 }
 
@@ -33,7 +38,7 @@ body {
 
 .saida{
     position: relative;
-    left: 25em;
+    left: 30em;
     
 }
 
@@ -64,7 +69,32 @@ body {
     color: antiquewhite;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1090px) {
+    *{font-size: 19px;}
+   
+    .input-texto, .mensagem {width: 15em;}
+    .info{
+        font-size: 10px;
+        white-space: nowrap;}
+
+    .saida{
+        left: 22em; 
+    }
+}
+
+@media screen and (max-width: 680px) {
+    *{font-size: 19px;}
+   
+    .input-texto, .mensagem {width: 14em;}
+    .info{
+        font-size: 10px;
+        white-space: nowrap;}
+    .saida{
+        left: 19em;        
+    }
+}
+
+@media screen and (max-width: 580px) {
     *{font-size: 19px;}
    
     .input-texto, .mensagem {width: 14.5em;}
