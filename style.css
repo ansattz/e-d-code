@@ -13,97 +13,101 @@ body {
     background-size: cover;
     overflow-x: hidden;
 }
-
-.entrada {
-    position: absolute;
-    margin-left: 2em;
-
-}
-
-.logo{
-    margin-top: 2em;
-    margin-bottom: 2em;
-    right: 10px;
-    width: 7em;
-    position: relative;
-}
-
-.input-texto {
-    background-image: url("img/overlay.png");
-}
-
-.mensagem {
-    background-image: url("img/overlay.png");
-}
-
-.saida{
-    position: relative;
-    left: 30em;
+    /* Header */
+        .logo{
+            margin-top: 2em;
+            margin-bottom: 2em;
+            right: 10px;
+            width: 7em;
+            position: relative;
+        }
     
-}
+    /* Main */
+        .inputt {
+            position: absolute;
+            margin-left: 2em;
 
-.encrypt, .decrypt {
-    background-color: rgb(195, 145, 78);
-    color: rgb(114, 44, 44);
-    border-radius: 50px;
-}
+        }
 
-.encrypt:hover {
-    background-color: rgba(255, 255, 255, 0.075);
-}
+        .input-text {
+            background-image: url("img/overlay.png");
+        }
 
-.encrypt:active{
-    background-color: rgba(214, 36, 36, 0.175);
-}
 
-.decrypt:hover {
-    background-color: rgba(255, 255, 255, 0.075);
-}
-
-.decrypt:active{
-    background-color: rgba(214, 36, 36, 0.175);
-}
-
-.info {
-    font-size: 15px;
-    color: antiquewhite;
-}
-
-@media screen and (max-width: 1090px) {
-    *{font-size: 19px;}
-   
-    .input-texto, .mensagem {width: 15em;}
-    .info{
-        font-size: 10px;
-        white-space: nowrap;}
-
-    .saida{
-        left: 22em; 
-    }
-}
-
-@media screen and (max-width: 680px) {
-    *{font-size: 19px;}
-   
-    .input-texto, .mensagem {width: 14em;}
-    .info{
-        font-size: 10px;
-        white-space: nowrap;}
-    .saida{
-        left: 19em;        
-    }
-}
-
-@media screen and (max-width: 580px) {
-    *{font-size: 19px;}
-   
-    .input-texto, .mensagem {width: 14.5em;}
-    .info{
-        font-size: 10px;
-        white-space: nowrap;}
-    .saida{
-        top: 16em;
-        left: 2em;
+        .info {
+            font-size: 15px;
+            color: antiquewhite;
+        }
         
-    }
-}
+        /* Buttons */
+            .encrypt, .decrypt {
+                background-color: rgb(195, 145, 78);
+                color: rgb(114, 44, 44);
+                border-radius: 50px;
+            }
+
+            .encrypt:hover {
+                background-color: rgba(255, 255, 255, 0.075);
+            }
+
+            .encrypt:active{
+                background-color: rgba(214, 36, 36, 0.175);
+            }
+
+            .decrypt:hover {
+                background-color: rgba(255, 255, 255, 0.075);
+            }
+
+            .decrypt:active{
+                background-color: rgba(214, 36, 36, 0.175);
+            }
+
+        /* Output text */
+            .msg {
+                background-image: url("img/overlay.png");
+            }
+
+            .outputt{
+                position: relative;
+                left: 30em;
+                
+            }
+
+        @media screen and (max-width: 1090px) {
+            *{font-size: 19px;}
+        
+            .input-text, .msg {width: 15em;}
+            .info{
+                font-size: 10px;
+                white-space: nowrap;}
+
+            .outputt{
+                left: 22em; 
+            }
+        }
+
+        @media screen and (max-width: 680px) {
+            *{font-size: 19px;}
+        
+            .input-text, .msg {width: 14em;}
+            .info{
+                font-size: 10px;
+                white-space: nowrap;}
+            .outputt{
+                left: 19em;        
+            }
+        }
+
+        @media screen and (max-width: 580px) {
+            *{font-size: 19px;}
+        
+            .input-text, .msg {width: 14.5em;}
+            .info{
+                font-size: 10px;
+                white-space: nowrap;}
+            .outputt{
+                top: 16em;
+                left: 2em;
+                
+            }
+        }

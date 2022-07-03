@@ -10,28 +10,34 @@
     <title>E-D-code</title>
 </head>
 <body>
-    <header>
-        <img src="img/logo.png" class="logo">
-    </header>
-    <main>
-        <div class="entrada">
-            <textarea class="input-texto" cols="30" rows="5" placeholder="Digite seu texto:"></textarea>
-            <div>
-                <h6 class="info">Dica: use apenas letras sem acento. :).</h6>
+    <!-- Header -->
+        <header>
+            <img src="img/logo.png" class="logo">
+        </header>
+    <!-- Main -->
+        <main>
+            <!-- Input text -->
+                <div class="inputt">
+                    <textarea class="input-text" cols="30" rows="5" placeholder="Digite seu texto:"></textarea>
+                    <div>
+                        <h6 class="info">Dica: use apenas letras e sem acento.</h6>
+                    </div>
+                <!-- Buttons -->
+                    <div>
+                        <button class="encrypt" onclick="btnEncrypt()">
+                            Codificar
+                        </button>
+                        <button class="decrypt" onclick="btnDecrypt()">
+                            Decodificar
+                        </button>
+                </div>
             </div>
-            <div class="botoes">
-                <button class="encrypt" onclick="btnEncrypt()">
-                    Codificar
-                </button>
-                <button class="decrypt" onclick="btnDecrypt()">
-                    Decodificar
-                </button>
-            </div>
-        </div>
-        <div class="saida">
-            <textarea class="mensagem" cols="30" rows="7"></textarea>
-        </div>
-    </main>
-    <script src="script.js"></script>
+            <!-- Output text -->
+                <div class="outputt">
+                    <textarea class="msg" cols="30" rows="7"></textarea>
+                </div>
+        </main>
+        <!-- Scripts -->
+            <script src="script.js"></script>
 </body>
 </html>
