@@ -53,13 +53,13 @@
    }
 }
 
-@media screen and (max-height: 450px){
+@media screen and (max-height: 400px){
    main{
       display: none;
    }
 }
 
-@media screen and (max-height: 450px){
+@media screen and (max-height: 230px){
    header{
       display: none;
    }
