@@ -17,15 +17,15 @@ footer{
 }
 
 .challenge-container{
-   width: 600px;
-   margin: 30px;
+   margin: 12px;
 }
 
 .challenge{
-   width: 640px;
+   width: 550px;
    display: flex;
    justify-content: space-between;
    align-items: center;
+   margin-left: 60px;
 }
 
 .end-footer{

@@ -13,9 +13,10 @@
 }
 
 .encode-icon{
-   width: 80px;
+   width: 60px;
 }
 
 .header-title{
+   font-size: 24px;
    color: #ffb359;
 }

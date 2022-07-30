@@ -1,0 +1,75 @@
+@media screen and (max-width: 720px){
+   main{
+      margin-top: 95px;
+   }
+
+   .textbox-container, .segment-input{
+      flex-direction: column;
+   }
+
+   .textbox-container{
+      gap: 5px;
+   }
+
+   .text1, .text-output{
+      height: 140px;
+      font-size: 12px;
+   }
+
+   .buttons-div{
+      align-self: unset;
+   }
+
+   .encrypt, .decrypt {
+      font-size: 13px;
+   }
+
+  .challenge {
+   width: unset;
+   display: flex;
+   justify-content: unset;
+   align-items: center;
+   margin-left: unset;
+   flex-direction: column;
+   }
+   .alura-logo {
+      width: 74px;
+   }
+  
+  .challenge-title{
+     font-size: 16px;
+   }
+
+  .oracle-logo {
+   width: 120px;
+   }
+}
+
+@media screen and (max-width: 385px){
+   .textbox-container {
+      gap: 9px;
+  }
+
+  .text1, .text-output {
+   height: 80px;
+   font-size: 10px;
+   }
+
+   .info {
+      font-size: 12px;
+  }
+
+  .encrypt, .decrypt {
+   font-size: 10px;
+   }
+}
+
+@media screen and (max-width: 340px){
+   .encode-icon {
+      width: 50px;
+  }
+
+  .header-title{
+   font-size: 16px;
+  }
+}

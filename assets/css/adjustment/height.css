@@ -29,9 +29,10 @@
    }
 }
 
-@media screen and (max-height: 875px){
+@media screen and (max-height: 840px){
    .text1, .text-output {
       height: 230px;
+      font-size: 16px;
    }
 
    .buttons-div{
@@ -50,11 +51,16 @@
    .text-output, .text1{
       height: 130px;
    }
-   
 }
 
 @media screen and (max-height: 450px){
    main{
+      display: none;
+   }
+}
+
+@media screen and (max-height: 450px){
+   header{
       display: none;
    }
 }
