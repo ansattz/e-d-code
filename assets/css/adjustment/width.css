@@ -1,0 +1,17 @@
+@media screen and (max-width: 1460px) {
+   .text1, .text-output{
+      width: 375px;
+      font-size: 22px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .text1, .text-output{
+      width: 258px;
+      font-size: 15px;
+   }
+
+   .info{
+      font-size: 17px;
+   }
+}

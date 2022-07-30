@@ -1,0 +1,81 @@
+main {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 170px;
+}
+
+textarea {
+   resize: none;
+ }
+
+ /* Text input */
+      .textbox-container{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+      }
+
+      .segment-input{
+         display: flex;
+         flex-direction: row;
+         align-items: flex-start;
+         gap: 2px;
+      }
+
+      .text-input{
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+      }
+
+      .text1{
+         width: 580px;
+         height: 1580px;
+         font-size: 40px;
+      }
+      .info{
+         color: antiquewhite;
+      }
+
+/* Buttons */
+   .buttons-div{
+      width: 250px;
+      text-align: center;
+      align-self: center;
+   }
+
+   .encrypt, .decrypt {
+      font-family: "Noto Sans Mono", sans-serif;
+      background-color: rgb(195, 145, 78);
+      color: rgb(114, 44, 44);
+      padding: 10px;
+      font-size: 32px;
+      border-radius: 18px;
+      cursor: pointer;
+   }
+
+   .encrypt:hover {
+      background-color: rgba(255, 255, 255, 0.075);
+   }
+
+   .encrypt:active{
+      background-color: rgba(214, 36, 36, 0.175);
+   }
+
+   .decrypt:hover {
+      background-color: rgba(255, 255, 255, 0.075);
+   }
+
+   .decrypt:active{
+      background-color: rgba(214, 36, 36, 0.175);
+   }
+
+/* Output text */
+   .text-output {
+      background-image: url("/assets/img/overlay.png");
+      width: 580px;
+      height: 1580px;
+      font-size: 45px;
+   }

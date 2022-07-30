@@ -1,43 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="img/padlock.png" sizes="32x32" />
-    <link rel="stylesheet" href="style.css">
-    <title>E-D-code</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="/assets/img/padlock.png" sizes="32x32" />
+	<link rel="stylesheet" href="/assets/css/body.css">
+	<link rel="stylesheet" href="/assets/css/header.css">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="/assets/css/footer.css">
+	<link rel="stylesheet" href="/assets/css/adjustment/width.css">
+	<link rel="stylesheet" href="/assets/css/adjustment/height.css">
+	<link rel="stylesheet" href="/assets/css/adjustment/mobile.css">
+	<title>E-D-code</title>
 </head>
 <body>
-    <!-- Header -->
-        <header>
-            <img src="img/logo.png" class="logo">
-        </header>
-    <!-- Main -->
-        <main>
-            <!-- Input text -->
-                <div class="inputt">
-                    <textarea class="input-text" cols="30" rows="5" placeholder="Digite seu texto:"></textarea>
-                    <div>
-                        <h6 class="info">Dica: use apenas letras e sem acento.</h6>
-                    </div>
-                <!-- Buttons -->
-                    <div>
-                        <button class="encrypt" onclick="btnEncrypt()">
-                            Codificar
-                        </button>
-                        <button class="decrypt" onclick="btnDecrypt()">
-                            Decodificar
-                        </button>
-                </div>
-            </div>
-            <!-- Output text -->
-                <div class="outputt">
-                    <textarea class="msg" cols="30" rows="7"></textarea>
-                </div>
-        </main>
-        <!-- Scripts -->
-            <script src="script.js"></script>
+	<!-- Header -->
+		<header>
+			<div class="menu-bar" >
+				<div class="header-container">
+					<img class="encode-icon" src="/assets/img/security.png">
+					<h1 class="header-title">Encriptador</h1>
+					<img class="encode-icon" src="/assets/img/security.png">
+				</div>
+			</div>
+		</header>
+	<!-- Main -->
+		<main>
+			<div class="textbox-container">
+
+			<!-- Input text -->
+				<div class="segment-input">
+					<div class="text-input">
+						<textarea class="text1" cols="30" rows="10" placeholder="Digite seu texto:"></textarea>
+						<div>
+							<h2 class="info">Dica: use apenas letras e sem acento.</h2>
+						</div>
+					</div>
+					<!-- Buttons -->
+						<div class="buttons-div">
+							<button class="encrypt" onclick="btnEncrypt()">
+								Codificar
+							</button>
+							<button class="decrypt" onclick="btnDecrypt()">
+								Decodificar
+							</button>
+						</div>
+				</div>
+			<!-- Output text -->
+				<textarea class="text-output" cols="30" rows="10"></textarea>
+			</div>
+		</main>
+		<footer>
+			<div class="challenge-container">
+				<div class="challenge">
+					<img src="/assets/img/alura.png" class="alura-logo" alt="alura logo">
+					<h1 class="challenge-title">Challenge ONE Sprint 1</h1>
+					<img src="/assets/img/oracle.png" class="oracle-logo" alt="oracle logo">
+				</div>
+			</div>
+			<div class="end-footer">
+				<div class="dev">
+               <a href="https://github.com/ansattz"><img src="/assets/img/ansattz.png" class="rodape-logo"></a>
+               <h1 class="dev-name">Desenvolvido por Douglas Santos</h1>
+               <p class="dev-name">&copy 2022</p>
+				</div>
+			</div>
+		</footer>
+		
+		<!-- Script -->
+			<script src="script.js"></script>
 </body>
 </html>

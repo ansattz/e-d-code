@@ -1,0 +1,21 @@
+.menu-bar{
+   position: absolute;
+   margin: 0 auto; left:0px; right:0px; top:0px;
+   width: 100%;
+   background-color:rgba(30, 18, 18, 0.5);
+}
+
+.header-container{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 10px;
+}
+
+.encode-icon{
+   width: 80px;
+}
+
+.header-title{
+   color: #ffb359;
+}

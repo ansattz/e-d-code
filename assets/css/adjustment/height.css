@@ -1,0 +1,60 @@
+@media screen and (max-height: 1875px){
+   .text1, .text-output {
+      height: 1230px;
+   }
+}
+
+@media screen and (max-height: 1675px){
+   .text1, .text-output {
+      height: 1030px;
+   }
+}
+
+@media screen and (max-height: 1475px){
+   .text1, .text-output {
+      height: 830px;
+   }
+}
+
+@media screen and (max-height: 1275px){
+   .text1, .text-output {
+      height: 630px;
+   }
+}
+
+@media screen and (max-height: 1075px){
+   .text1, .text-output {
+      height: 430px;
+      font-size: 30px;
+   }
+}
+
+@media screen and (max-height: 875px){
+   .text1, .text-output {
+      height: 230px;
+   }
+
+   .buttons-div{
+      align-self: unset;
+   }
+   .encrypt, .decrypt{
+      font-size: 24px;
+   }
+}
+
+@media screen and (max-height: 660px){
+   main{
+      margin-top: 120px;
+   }
+
+   .text-output, .text1{
+      height: 130px;
+   }
+   
+}
+
+@media screen and (max-height: 450px){
+   main{
+      display: none;
+   }
+}

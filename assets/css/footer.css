@@ -1,0 +1,62 @@
+footer{
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-image: radial-gradient(#7a7373, #7d7373);
+   bottom: 0;
+   width: 100%;
+}
+
+.oracle-logo{
+   width: 150px;
+}
+
+.alura-logo{
+   width: 100px;
+}
+
+.challenge-container{
+   width: 600px;
+   margin: 30px;
+}
+
+.challenge{
+   width: 640px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.end-footer{
+      display: flex;
+      flex-direction: row;
+      background-image: radial-gradient(#221c1c, #030908);
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      align-self: stretch;
+}
+
+.challenge-title{
+   color: #ffb359;
+   font-size: 18px;
+}
+
+.dev{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 10px;
+}
+
+.dev-name{
+   margin: 0px;
+   font-size: 12px;
+   font-family: 'Noto Sans Mono', monospace;
+   color: #f7eded;
+   white-space: nowrap;
+}
+.rodape-logo{
+   width: 25px;
+}
