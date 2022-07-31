@@ -7,11 +7,15 @@
 
 @media screen and (max-width: 1024px) {
    .text1, .text-output{
-      width: 258px;
+      width: 200px;
       font-size: 15px;
    }
 
    .info{
-      font-size: 17px;
+      font-size: 12px;
+   }
+
+   .textbox-container, .segment-input{
+      align-items: center;
    }
 }
