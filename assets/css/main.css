@@ -1,9 +1,9 @@
 main {
    display: flex;
+   flex-direction: row;
    align-items: center;
    justify-content: center;
-   flex-direction: column;
-   margin-top: 150px;
+   height: 90vh;
 }
 
 textarea {
@@ -19,24 +19,12 @@ textarea {
 
       .segment-input{
          display: flex;
-         flex-direction: row;
-         align-items: flex-start;
-         gap: 2px;
       }
 
-      .text-input{
-         display: flex;
-         flex-direction: column;
-         align-items: flex-start;
-      }
-
-      .text1{
-         width: 580px;
-         height: 1580px;
+      .text1,.text2{
+         width: 640px;
+         height: 550px;
          font-size: 40px;
-      }
-      .info{
-         color: antiquewhite;
       }
 
 /* Buttons */
@@ -51,7 +39,7 @@ textarea {
       background-color: rgb(195, 145, 78);
       color: rgb(114, 44, 44);
       padding: 10px;
-      font-size: 32px;
+      font-size: 20px;
       border-radius: 18px;
       cursor: pointer;
    }
@@ -73,9 +61,6 @@ textarea {
    }
 
 /* Output text */
-   .text-output {
-      background-image: url("/assets/img/overlay.png");
-      width: 580px;
-      height: 1580px;
-      font-size: 45px;
+   .text2 {
+      background-image: url("../img/overlay.png");
    }

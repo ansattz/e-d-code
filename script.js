@@ -1,5 +1,5 @@
 const txtInput = document.querySelector(".text1");
-const msg = document.querySelector(".text-output");
+const msg = document.querySelector(".text2");
 
 // Buttons functions
 	function btnEncrypt() {

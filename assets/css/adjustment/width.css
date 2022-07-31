@@ -1,21 +1,49 @@
-@media screen and (max-width: 1460px) {
-   .text1, .text-output{
-      width: 375px;
-      font-size: 22px;
-   }
+@media screen and (max-width: 1920px){
+   .text1, .text2 {
+      width: 500px;
+      height: 440px;
+      font-size: 25px;
+  }
 }
 
-@media screen and (max-width: 1024px) {
-   .text1, .text-output{
-      width: 200px;
-      font-size: 15px;
+
+@media screen and (max-width: 1366px){
+   main{
+      height: 80vh;
    }
 
-   .info{
+   .text1, .text2 {
+      width: 260px;
+      height: 180px;
       font-size: 12px;
+  }
+
+  .buttons-div{
+      width: 230px;
+  }
+
+  .encrypt,.decrypt{
+   font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+   main{
+      height: 72vh;
    }
 
-   .textbox-container, .segment-input{
-      align-items: center;
-   }
+   .text1, .text2 {
+      width: 200px;
+      height: 70px;
+      font-size: 7px;
+  }
+
+  .buttons-div{
+   width: 150px;
+}
+
+  .encrypt, .decrypt{
+   font-size: 7px;
+  }
+
 }
