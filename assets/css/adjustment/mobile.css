@@ -1,8 +1,4 @@
 @media screen and (max-width: 540px){
-   main{
-      height: 75vh;
-   }
-
    .buttons-div{
       margin: 12px;
    }

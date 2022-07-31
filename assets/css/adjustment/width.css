@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1366px){
    main{
-      height: 80vh;
+      height: 75vh;
    }
 
    .text1, .text2 {
@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 1024px){
    main{
-      height: 72vh;
+      height: 70vh;
    }
 
    .text1, .text2 {
