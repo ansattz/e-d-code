@@ -1,9 +1,7 @@
 main {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
-   height: 80vh;
+   margin-top: 60px;
+   padding: 5px;
+   margin-bottom: 200px;
 }
 
 textarea {
@@ -11,25 +9,22 @@ textarea {
  }
 
  /* Text input */
-      .textbox-container{
-         display: flex;
-         flex-direction: row;
-         justify-content: center;
-      }
+   .textbox-container {
+      display: flex;
+      order: 1;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
 
-      .segment-input{
-         display: flex;
-      }
-
-      .text1,.text2{
-         width: 640px;
-         height: 550px;
-         font-size: 40px;
-      }
+   .text1, .text2 {
+      font-size: 18px;
+      margin: 20px;
+   }
 
 /* Buttons */
    .buttons-div{
-      width: 250px;
+      margin: 5px;
+      width: 300px;
       text-align: center;
       align-self: center;
    }

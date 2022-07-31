@@ -1,72 +1,29 @@
-@media screen and (max-width: 724px){
-   .buttons-div{
-      margin: 12px;
+@media screen and (max-width: 580px){
+   main {
+      margin-top: 30px;
    }
 
-   .text1, .text2 {
-      width: 150px;
-      height: 80px;
-      font-size: 5px;
+   .encode-icon {
+      width: 35px;
    }
 
-   .challenge-container{
+   .header-title {
+      font-size: 15px;
+   }
+
+   .challenge-container {
+      margin: 5px;
+      display: unset;
       flex-direction: unset;
-   }
-
-   .challenge{
-      width: unset;
-      margin-left: 10px;
-   }
-
-   .alura-logo {
-      width: 15px;
+      justify-content: unset;
   }
 
-   .challenge-title {
-      font-size: 3.5px;
-   }
-
-   .oracle-logo {
-      width: 25px;
-  }
-
-  .dev-name{
-   font-size: 2.5px;
-}
-
-   .rodape-logo {
-      width: 10px;
-   }
-
-   .dev{
-      margin: 0;
-   }
-  
-}
-
-@media screen and (max-width: 480px){
-   .header-container{
-      padding: 2px;
-   }
-
-   .textbox-container, .segment-input{
+   .challenge {
+      display: flex;
+      justify-content: unset;
       align-items: center;
-   }
-
-   .text1, .text2 {
-      width: 80px;
-      height: 40px;
-      font-size: 2px;
-  }
-
-
-  .encrypt, .decrypt{
-      font-size: 3.5px;
-      padding: 5px;
-   }
-
-   .buttons-div{
-      width: 37px;
-      margin: 4px;
+      gap: unset;
+      margin-left: unset;
+      flex-direction: column;
    }
 }

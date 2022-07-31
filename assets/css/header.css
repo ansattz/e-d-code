@@ -1,25 +1,26 @@
 .menu-bar {
-   position: fixed;
    margin: 0 auto;
    left: 0px;
    right: 0px;
    top: 0px;
+   order: 0;
    width: 100%;
    background-color: rgba(30, 18, 18, 0.5);
 }
 
 .header-container{
    display: flex;
-   justify-content: space-evenly;
    align-items: center;
-   padding: 10px;
+   justify-content: space-around;
+   flex-direction: row;
 }
 
+
 .encode-icon{
-   width: 60px;
+   width: 50px;
 }
 
 .header-title{
-   font-size: 24px;
+   font-size: 20px;
    color: #ffb359;
 }
