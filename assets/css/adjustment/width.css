@@ -1,4 +1,8 @@
 @media screen and (max-width: 1920px){
+   main{
+      height: 90vh;
+   }
+
    .text1, .text2 {
       width: 500px;
       height: 440px;
@@ -6,44 +10,75 @@
   }
 }
 
-
 @media screen and (max-width: 1366px){
-   main{
-      height: 75vh;
+   .encode-icon {
+      width: 20px;
+  }
+
+   .header-title {
+      font-size: 10px;
+   }
+   
+   .text1, .text2 {
+      width: 340px;
+      height: 280px;
+      font-size: 12px;
    }
 
-   .text1, .text2 {
-      width: 260px;
-      height: 180px;
-      font-size: 12px;
-  }
+   .buttons-div{
+      width: 200px;
+   }
 
-  .buttons-div{
-      width: 230px;
-  }
-
-  .encrypt,.decrypt{
-   font-size: 12px;
+   .encrypt,.decrypt{
+      font-size: 9px;
   }
 }
 
 @media screen and (max-width: 1024px){
+   
    main{
       height: 70vh;
    }
 
+   .encode-icon {
+      width: 15px;
+   }
+
+   .header-title {
+      font-size: 6px;
+   }
+
    .text1, .text2 {
-      width: 200px;
+      width: 150px;
       height: 70px;
       font-size: 7px;
-  }
+   }
 
-  .buttons-div{
-   width: 150px;
-}
+   .buttons-div{
+      width: 120px;
+   }
 
-  .encrypt, .decrypt{
-   font-size: 7px;
-  }
+   .encrypt, .decrypt{
+      font-size: 5px;
+   }
 
+   .oracle-logo{
+      width: 40px;
+   }
+   
+   .alura-logo{
+      width: 20px;
+   }
+
+   .challenge-title{
+      font-size: 4px;
+   }
+
+   .challenge{
+      margin-left: 20px;
+   }
+
+   .dev-name{
+      font-size: 3.5px;
+   }
 }
